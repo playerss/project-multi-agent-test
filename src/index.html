@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To-Do List - 多 Agent 协作测试</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>📋 To-Do List</h1>
+        <p class="subtitle">多 Agent 协作测试项目</p>
+        
+        <div class="input-section">
+            <input type="text" id="taskInput" placeholder="输入任务内容..." />
+            <button id="addBtn">添加</button>
+        </div>
+        
+        <ul id="taskList"></ul>
+        
+        <div class="stats">
+            <span id="totalTasks">总计：0 个任务</span>
+            <span id="completedTasks">已完成：0 个</span>
+        </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
